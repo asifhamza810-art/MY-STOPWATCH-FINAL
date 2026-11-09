@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+**/.env
+!**/.env.example
+
+# Builds
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Uploads & local data
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs & OS
+logs/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Vite
+panda/dist/
+.vite/
